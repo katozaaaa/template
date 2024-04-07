@@ -74,7 +74,7 @@ function copyFonts() {
 
 function copyImages() {
 
-  return src('app/assets/images/**/*.*')
+  return src('app/assets/images/**/*.*', {encoding: false})
     .pipe(dest('public/assets/images/'))
 }
 
