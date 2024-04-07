@@ -1,0 +1,9 @@
+@use '../blocks/layout/layout';
+@use '../blocks/header/header';
+@use '../blocks/main/main';
+@use '../blocks/footer/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+}
