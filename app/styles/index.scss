@@ -1,5 +1,12 @@
+@use './normilize';
+
+// main blocks
 @use '../blocks/page/page';
 @use '../blocks/body/body';
 @use '../blocks/header/header';
 @use '../blocks/main/main';
 @use '../blocks/footer/footer';
+
+// sections
+
+// elements
